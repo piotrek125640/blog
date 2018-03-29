@@ -16,15 +16,16 @@ class ReviewsController extends Controller
 
       $obj = json_decode($result);
       for ($i=0; $i <count($obj->data) ; $i++) {
-        $reviews[] = $obj->data[$i];
+        $rev[] = $obj->data[$i];
       }
 
-      for ($i=0; $i <count($reviews) ; $i++) {
-        if(isset($reviews[$i]->review_text)){
-          $res[] =  [$reviews[$i]->review_text, $reviews[$i]->rating, strstr($reviews[$i]->reviewer->name, ' ', true)];
+      for ($i=0; $i <count($rev) ; $i++) {
+        if(isset($rev[$i]->review_text)){
+          $review[] =  [$rev[$i]->review_text, $rev[$i]->rating, strstr($rev[$i]->reviewer->name, ' ', true)];
         }
       }
 
-      // dd($obj->data[0]->review_text,$reviews,$res);
+      // return view('layouts.reviews', compact('review'));
+      dd($obj->data[0]->review_text,$rev,$res);
     }
 }

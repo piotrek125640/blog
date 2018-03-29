@@ -22,4 +22,11 @@
             </div>
           </div>
         </div>
+        <hr class="featurette-divider">
+
+        <h1 class="text-center" style="padding-bottom: 55px;">Opinie użytkowników</h1>
+        <div class="container">
+          @include('layouts.reviews')
+        </div>
+      </div>
       </div>
