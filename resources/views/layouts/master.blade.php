@@ -17,9 +17,8 @@
   </head>
   <body>
     @include('layouts.carousel')
-    <main role ="main">
+    <main role ="main" class="bd-content">
     @include('layouts.body')
-    <h1>Hello, world!</h1>
   </main>
 
 @include('layouts.footer')
