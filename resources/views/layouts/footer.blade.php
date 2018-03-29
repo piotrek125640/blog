@@ -38,14 +38,21 @@
             </div>
             <!-- Here we use the Google Embed API to show Google Maps. -->
             <!-- In order for this to work in your project you will need to generate a unique API key.  -->
-            <iframe id="map-container" frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOwg_06VPwokRYv534QaPC8g&key=AIzaSyBdJm9Amm4KALkKlZObWn40dcpRyH119zg" >
-            </iframe>
         </div>
         <div class="social-networks">
-            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-            <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+          <div class="container">
+            <div class="row justify-content-md-center text-center">
+              <div class="col col-lg-1">
+                <a href="#" class="twitter"><i class="fab fa-twitter fa-3x"></i></a>
+              </div>
+              <div class="col col-lg-1">
+                <a href="#" class="facebook"><i class="fab fa-facebook fa-3x"></i></a>
+              </div>
+              <div class="col col-lg-1">
+                <a href="#" class="google"><i class="fab fa-google-plus-g fa-3x"></i></a>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="footer-copyright">
             <p>© 2016 Copyright Text </p>
