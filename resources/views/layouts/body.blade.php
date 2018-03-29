@@ -1,6 +1,7 @@
 <div class="container marketing" >
 
         <!-- Three columns of text below the carousel -->
+<<<<<<< HEAD
         <div class="row">
           <div class="col-lg-4">
               <div class="card">
@@ -89,6 +90,9 @@
         </div>
 
 
+=======
+        @include('layouts.counter')
+>>>>>>> f45f666b31cfbbb75d9943549e936ddb22c89c5d
         <!-- START THE FEATURETTES -->
 
         <hr class="featurette-divider">
