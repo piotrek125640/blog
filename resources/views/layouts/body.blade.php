@@ -2,6 +2,7 @@
 
         <!-- Three columns of text below the carousel -->
         @include('layouts.counter')
+        <hr class="featurette-divider">
         <h1 class="text-center">Nasi sponsorzy</h1>
         <div class="">
           <div class="container db-lead">
