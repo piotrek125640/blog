@@ -33,7 +33,7 @@
           <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title"><i class="fas fa-cube fa-3x"></i></h5>
+                <h5 class="card-title"><i class="fas fa-car fa-3x"></i></h5>
                 <p class="card-text">
                   <span id="load" class="display-4"></span>
                   <script type="text/javascript">
