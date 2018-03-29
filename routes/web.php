@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/diagnostyka', 'DiagnostykaController@index');
+Route::get('/transport', 'TransportController@index');
+Route::get('/warsztat', 'WarsztatController@index');
