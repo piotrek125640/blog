@@ -2,7 +2,7 @@
 
         <!-- Three columns of text below the carousel -->
         @include('layouts.counter')
-        <h1 class="text-center">Nasi sponsorzy</h1>
+        <h1 class="text-center">Firmy które z nami współpracują.</h1>
         <div class="">
           <div class="container db-lead">
             <div class="row justify-content-md-center fa-8x text-center">
