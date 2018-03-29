@@ -18,4 +18,4 @@ Route::get('/', function () {
 Route::get('/diagnostyka', 'DiagnostykaController@index');
 Route::get('/transport', 'TransportController@index');
 Route::get('/warsztat', 'WarsztatController@index');
-Route::get('/', 'ReviewsController@getReviews');
+Route::post('/', 'ReviewsController@getReviews');

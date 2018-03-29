@@ -25,6 +25,6 @@ class ReviewsController extends Controller
         }
       }
 
-      dd($obj->data[0]->review_text,$reviews,$res);
+      // dd($obj->data[0]->review_text,$reviews,$res);
     }
 }
