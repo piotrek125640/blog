@@ -21,64 +21,72 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <div class="row rating-desc">
-                            <div class="col-xs-3 col-md-3 text-right">
-                                <span class="glyphicon glyphicon-star"></span>5
-                            </div>
-                            <div class="col-xs-8 col-md-9">
-                                <div class="progress progress-striped">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                                        <span class="sr-only">80%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-3 col-md-3 text-right">
-                                <span class="glyphicon glyphicon-star"></span>4
-                            </div>
-                            <div class="col-xs-8 col-md-9">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="20"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-                                        <span class="sr-only">60%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-3 col-md-3 text-right">
-                                <span class="glyphicon glyphicon-star"></span>3
-                            </div>
-                            <div class="col-xs-8 col-md-9">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-                                        <span class="sr-only">40%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-3 col-md-3 text-right">
-                                <span class="glyphicon glyphicon-star"></span>2
-                            </div>
-                            <div class="col-xs-8 col-md-9">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="20"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                                        <span class="sr-only">20%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-3 col-md-3 text-right">
-                                <span class="glyphicon glyphicon-star"></span>1
-                            </div>
-                            <div class="col-xs-8 col-md-9">
-                                <div class="progress">
-                                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80"
-                                        aria-valuemin="0" aria-valuemax="100" style="width: 15%">
-                                        <span class="sr-only">15%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                      <canvas id="globalGenre" width="700" height="300"></canvas>
+                                        <script>
+                                        var ctx = document.getElementById("globalGenre");
+                                        var globalGenre = new Chart(ctx, {
+                                            type: 'horizontalBar',
+                                            data: {
+                                                labels: ['sb','c','d','e','f'],
+                                                datasets: [{
+                                                    data: [5.4,3,2,1],
+                                                    backgroundColor: [
+                                                      'rgba(244, 67, 54,1)',
+                                                      'rgba(233, 30, 99,1)',
+                                                      'rgba(156, 39, 176,1)',
+                                                      'rgba(103, 58, 184,1)',
+                                                      'rgba(63, 81, 181,1)',
+                                                      'rgba(40, 105, 249,1)'
+                                                    ],
+                                                    borderColor: [
+                                                        'rgba(244, 67, 54,1)',
+                                                        'rgba(233, 30, 99,1)',
+                                                        'rgba(156, 39, 176,1)',
+                                                        'rgba(103, 58, 184,1)',
+                                                        'rgba(63, 81, 181,1)',
+                                                        'rgba(40, 105, 249,1)'
+                                                    ],
+                                                    borderWidth: 1
+                                                }]
+                                            },
+                                            options: {
+                                              events: [],
+                                              scales:{
+                                              yAxes: [{
+                                                  // display: false,
+                                                  ticks: {
+                                                fontFamily: 'FontAwesome',
+                                                beginAtZero: true
+                                              },
+                                              gridLines : {
+                                            display : false,
+                                          }
+                                            }],
+                                              xAxes: [{
+                                                  display: false,
+                                                  ticks: {
+                                                fontFamily: 'FontAwesome'
+                                              },
+                                              gridLines : {
+                                            display : false,
+                                          }
+                                              }]
+                                          },
+                                        legend: {
+                                            display: false
+                                        },
+                                        tooltips: {
+                                              callbacks: {
+                                             label: function(tooltipItem) {
+                                                    return tooltipItem.yLabel;
+                                             }
+        }
+    }
+}
+                                        });
+                                        </script>
+                                                            </div>
+
                 </div>
             </div>
         </div>
@@ -97,9 +105,9 @@
 						</div>
 						<div class="col-sm-9">
 							<div class="review-block-rate">
-                <h4 class="">
+                <h5 class="">
                   <i class="fas fa-star"></i> <?php // TODO: pętla $reviews->rating ?>
-                </h4>
+                </h5>
 							</div>
 							<div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
 						</div>
