@@ -31,7 +31,7 @@
   <div class="col-lg-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="fas fa-cube fa-3x"></i></h5>
+        <h5 class="card-title"><i class="fas fa-car fa-3x"></i></h5>
         <div class="card-header bg-transparent"><h5>Posiadamy ponad</h5></div>
         <p class="card-text">
           <span id="load" class="display-4"></span>
@@ -59,7 +59,7 @@
   <div class="col-lg-4">
     <div class="card">
       <div class="card-body">
-        <h5 class="card-title"><i class="fas fa-truck-moving fa-3x"></i></h5>
+        <h5 class="card-title"><i class="fas fa-truck-loading fa-3x"></i></h5>
         <div class="card-header bg-transparent"><h5>Posiadamy ponad</h5></div>
         <p class="card-text display-4">
           <span id="emplo"></span>
