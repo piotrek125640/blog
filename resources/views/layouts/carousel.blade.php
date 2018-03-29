@@ -9,9 +9,9 @@
           <img class="first-slide img-fluid" src="http://www.gsfdcy.com/data/img/29/1454740-euro-truck-simulator-2-wallpaper.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Diagnostyka</h1>
+              <p>Jeżeli dbanie o aspekt techniczny auta to dla Ciebie piorytet, nasza firma pomoże Ci sprawdzić Twoje auto.</p>
+              <p><a class="btn btn-lg btn-primary" href="{{url("diagnostyka")}}" role="button">Sign up today</a></p>
             </div>
           </div>
         </div>
@@ -19,9 +19,9 @@
           <img class="second-slide img-fluid" src="https://i.pinimg.com/originals/22/5c/b7/225cb71aa099a9b622dac05e00f1184e.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <h1>Transport</h1>
+              <p>Nasza firma transportowa, to pewny i sprawdzony wybór.</p>
+              <p><a class="btn btn-lg btn-primary" href="{{url("transport")}}" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -29,9 +29,9 @@
           <img class="third-slide img-fluid" src="http://paperandthread.com/g/hel/hellenic-auto-service-vardakis-group.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <h1>Warsztat</h1>
+              <p>Firma Henderson świadczy również usługi warsztatowe. Wejdź aby dowiedzieć się więcej.</p>
+              <p><a class="btn btn-lg btn-primary" href="{{url("warsztat")}}" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
