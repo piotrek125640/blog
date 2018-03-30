@@ -9,3 +9,4 @@ class WarsztatController extends Controller
     public function index(){
 		return view('warsztat.index');
 		}
+}
