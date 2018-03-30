@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/diagnostyka', 'DiagnostykaController@index');
+Route::get('/diagnostyka', 'PhotoController@index');
 Route::get('/transport', 'TransportController@index');
 Route::get('/warsztat', 'WarsztatController@index');
 Route::post('/', 'ReviewsController@getReviews');

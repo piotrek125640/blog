@@ -15,6 +15,11 @@ class CreateGalleryTable extends Migration
     {
         Schema::create('gallery', function (Blueprint $table) {
             $table->increments('id');
+            $table->text('src');
+            $table->text('alt');
+            $table->text('h1');
+            $table->text('p');
+            $table->integer('sekcja');
             $table->timestamps();
         });
     }

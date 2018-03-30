@@ -5,10 +5,11 @@
   @include('layouts.navbar')
 @endsection
 @section('gallery')
-    @include('diagnostyka.carousel')
+  @foreach($photos as $photo)
+  @include('diagnostyka.photo')
+  @endforeach
 @endsection
 @section('body')
-  @include('diagnostyka.body')
 @endsection
 @section('footer')
   @include('layouts.footer')
