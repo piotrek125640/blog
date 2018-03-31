@@ -12,7 +12,7 @@
                             </span><span class="glyphicon glyphicon-star-empty"></span>
                         </div>
                         <div>
-                            <span class="glyphicon glyphicon-user"></span>1,050,008 total
+                            <span class="glyphicon glyphicon-user"></span>2,450 total
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
@@ -22,7 +22,7 @@
                                         var globalGenre = new Chart(ctx, {
                                             type: 'horizontalBar',
                                             data: {
-                                                labels: ['sb','c','d','e','f'],
+                                                labels: ['Piątka','Czwóreczka','Trójeczka','Dwójeczka','Jedyneczka'],
                                                 datasets: [{
                                                     data: [5,4,3,2,1],
                                                     backgroundColor: [
@@ -97,16 +97,16 @@
 				<div class="review-block">
 					<div class="row">
 						<div class="col-sm-3">
-							<div class="review-block-name"><p><b>user</b></p></div>
-							<div class="review-block-date">January 29, 2016<br/>1 day ago</div>
+							<div class="review-block-name"><p><b>Bartosz</b></p></div>
+							<div class="review-block-date"><br/><b>Dodane wczoraj.</b></div>
 						</div>
 						<div class="col-sm-9">
 							<div class="review-block-rate">
                 <h5 class="">
-                  <i class="fas fa-star"></i> <?php // TODO: pętla $reviews->rating ?>
+                  <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <?php // TODO: pętla $reviews->rating ?>
                 </h5>
 							</div>
-							<div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
+							<div class="review-block-description">Bardzo przyjemna obsługa, wszystko przebiegło zgodnie z oczekiwaniami :)</div>
 						</div>
 					</div>
 					<hr/>
