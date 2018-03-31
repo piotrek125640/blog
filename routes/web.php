@@ -22,3 +22,10 @@ Route::get('/o_nas', 'KontaktController@about');
 Route::get('/kontakt', 'KontaktController@messages');
 Route::get('/informacje','KontaktController@info');
 Route::post('/', 'ReviewsController@getReviews');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
+Route::get('/admin','Administrator\AdministratorController@index');

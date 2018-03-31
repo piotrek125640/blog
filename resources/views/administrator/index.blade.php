@@ -1,0 +1,19 @@
+@extends('layouts.master')
+@section('head')
+  @include('layouts.css')
+  @include('layouts.script')
+  @if(Auth::user())
+    @include('layouts.administrator.navbar')
+  @else
+    @include('layouts.navbar')
+  @endif
+@endsection
+@section('gallery')
+    @include('layouts.carousel')
+@endsection
+@section('body')
+  @include('layouts.body')
+@endsection
+@section('footer')
+  @include('layouts.footer')
+@endsection
