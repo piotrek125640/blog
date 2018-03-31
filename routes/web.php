@@ -12,10 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Route::get('/diagnostyka', 'PhotoController@index');
+Route::get('/diagnostyka', 'DiagnostykaController@index');
 Route::get('/transport', 'TransportController@index');
 Route::get('/warsztat', 'WarsztatController@index');
+Route::get('/o_nas', 'KontaktController@about');
+Route::get('/kontakt', 'KontaktController@messages');
+Route::get('/informacje','KontaktController@info');
 Route::post('/', 'ReviewsController@getReviews');
