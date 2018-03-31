@@ -38,6 +38,9 @@
             </div>
             <!-- Here we use the Google Embed API to show Google Maps. -->
             <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+            <iframe id="map-container" frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2423.0260172240028!2d21.429227315532206!3d52.605300579830434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ee59d4526b8b7%3A0x1079a9ff9a7ba233!2sOkr%C4%99gowa+Stacja+Kontroli+Pojazd%C3%B3w!5e0!3m2!1spl!2spl!4v1522515406667" >
+              </iframe>
         </div>
         <div class="social-networks">
           <div class="container">
