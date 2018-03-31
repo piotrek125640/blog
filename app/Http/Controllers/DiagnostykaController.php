@@ -8,7 +8,7 @@ use App\Photo;
 class DiagnostykaController extends Controller
 {
     public function index(){
-        $photos = Photo::where('sekcja','=' ,'1')
+        $photos = Photo::where('sekcja','=' ,'2')
                   ->get();
         $count = count($photos);
         for ($i=0; $i < $count ; $i++) {
