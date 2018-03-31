@@ -18,11 +18,14 @@ Route::get('/warsztat', 'WarsztatController@index');
 Route::get('/o_nas', 'KontaktController@about');
 Route::get('/kontakt', 'KontaktController@messages');
 Route::get('/informacje','KontaktController@info');
-Route::post('/', 'ReviewsController@getReviews');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
-Route::get('/admin','Administrator\AdministratorController@index');
+Route::group(['middleware' => ['auth', 'administrator']], function(){
+  Route::get('/admin','Administrator\AdministratorController@index');
+  Route::get('/admin/zarządzaj', 'Administrator\AdministratorController@manage');
+  Route::get('/admin/zdjęcia', 'Administrator\AdministratorController@photos');
+  Route::get('/admin/opinie', 'Administrator\AdministratorController@reviews');
+});

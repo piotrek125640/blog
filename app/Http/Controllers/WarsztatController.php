@@ -12,7 +12,7 @@ class WarsztatController extends Controller
                 ->get();
 
       $count = count($photos);
-      for ($i=o; $i < $count ; $i++) {
+      for ($i=0; $i < $count ; $i++) {
         $slides[] = $i;
       }
 		return view('warsztat.index',compact(['photos','slides']));

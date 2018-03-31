@@ -24,7 +24,7 @@
                                             data: {
                                                 labels: ['sb','c','d','e','f'],
                                                 datasets: [{
-                                                    data: [5.4,3,2,1],
+                                                    data: [5,4,3,2,1],
                                                     backgroundColor: [
                                                       'rgba(244, 67, 54,1)',
                                                       'rgba(233, 30, 99,1)',
@@ -45,7 +45,8 @@
                                                 }]
                                             },
                                             options: {
-                                              events: [],
+                                              tooltipTemplate: "<%if (label){%><%=label %>: <%}%><%= value + ' %' %>",
+                                              // events: [],
                                               scales:{
                                               yAxes: [{
                                                   // display: false,
@@ -58,7 +59,7 @@
                                           }
                                             }],
                                               xAxes: [{
-                                                  display: false,
+                                                  // display: false,
                                                   ticks: {
                                                 fontFamily: 'FontAwesome'
                                               },
@@ -71,6 +72,7 @@
                                             display: false
                                         },
                                         tooltips: {
+                                          displayColors: false,
                                               callbacks: {
                                              label: function(tooltipItem) {
                                                     return tooltipItem.yLabel;
