@@ -19,6 +19,13 @@ body {
   margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
+.text-karuzela{
+  background-color:  rgba(32, 44, 44, 0.7);
+  -moz-border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -khtml-border-radius: 20px;
+ border-radius: 20px;
+}
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
