@@ -5,11 +5,13 @@
   @include('layouts.navbar')
 @endsection
 @section('gallery')
-
 @endsection
 @section('body')
   @foreach($photos as $photo)
-  @include('diagnostyka.photo')
+    <ul>
+      <li>{{$photo->src}}</li>
+      <li>{{$photo->alt}}</li>
+    </ul>
   @endforeach
 @endsection
 @section('footer')

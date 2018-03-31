@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/diagnostyka', 'PhotoController@index');
+Route::get('/diagnostyka', 'DiagnostykaController@index');
 Route::get('/transport', 'TransportController@index');
 Route::get('/warsztat', 'WarsztatController@index');
 Route::get('/o_nas', 'KontaktController@about');
