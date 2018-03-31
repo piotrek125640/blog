@@ -6,7 +6,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="first-slide img-fluid" src="http://www.gsfdcy.com/data/img/29/1454740-euro-truck-simulator-2-wallpaper.jpg" alt="First slide">
+          <img class="first-slide" src="http://www.gsfdcy.com/data/img/29/1454740-euro-truck-simulator-2-wallpaper.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
               <h1>Diagnostyka</h1>
@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="carousel-item ">
-          <img class="second-slide img-fluid" src="https://i.pinimg.com/originals/22/5c/b7/225cb71aa099a9b622dac05e00f1184e.jpg" alt="Second slide">
+          <img class="second-slide" src="https://i.pinimg.com/originals/22/5c/b7/225cb71aa099a9b622dac05e00f1184e.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Transport</h1>
@@ -26,7 +26,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide img-fluid" src="http://paperandthread.com/g/hel/hellenic-auto-service-vardakis-group.jpg" alt="Third slide">
+          <img class="third-slide" src="http://paperandthread.com/g/hel/hellenic-auto-service-vardakis-group.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption text-right">
               <h1>Warsztat</h1>
