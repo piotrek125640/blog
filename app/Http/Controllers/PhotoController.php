@@ -3,11 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Photo;
 
-class TransportController extends Controller
+class PhotoController extends Controller
 {
     public function index(){
-      $photo = Photo::find($photo);
-  		return view('diagnostyka.index',compact('photo'));
-    }
+      $photo = Photo::latest()->get();
+  return view('diagnostyka.index',compact('photo'));
+  }
 }
