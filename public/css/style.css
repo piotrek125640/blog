@@ -11,6 +11,9 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
+#carousel-position{
+  margin-top:3rem;
+}
 .carousel {
   margin-top: 3rem;
   margin-bottom: 4rem;
