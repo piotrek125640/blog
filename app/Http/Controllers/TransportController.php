@@ -8,7 +8,7 @@ use App\Photo;
 class TransportController extends Controller
 {
     public function index(){
-      $photos = Photo::where('sekcja','=' ,'1')
+      $photos = Photo::where('sekcja','=' ,'3')
                 ->get();
 
       $count = count($photos);
