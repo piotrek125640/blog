@@ -7,12 +7,7 @@
 @section('gallery')
 @endsection
 @section('body')
-  @foreach($photos as $photo)
-    <ul>
-      <li>{{$photo->src}}</li>
-      <li>{{$photo->alt}}</li>
-    </ul>
-  @endforeach
+@include('layouts.carousel')
 @endsection
 @section('footer')
   @include('layouts.footer')
