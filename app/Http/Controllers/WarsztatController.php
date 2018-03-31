@@ -3,10 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Photo;
 
 class WarsztatController extends Controller
 {
     public function index(){
-		return view('warsztat.index');
+      $photos = Photo::where('sekcja','=' ,'1')
+                ->get();
+
+      $count = count($photos);
+      for ($i=1; $i < $count ; $i++) {
+        $slides[] = $i;
+      }
+		return view('warsztat.index',compact(['photos','slides']));
 		}
 }

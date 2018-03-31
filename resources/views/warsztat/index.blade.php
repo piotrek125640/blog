@@ -4,10 +4,8 @@
   @include('layouts.script')
   @include('layouts.navbar')
 @endsection
-@section('gallery')
-
-@endsection
 @section('body')
+  @include('layouts.carousel')
 @endsection
 @section('footer')
   @include('layouts.footer')

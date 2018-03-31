@@ -3,10 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Photo;
 
 class TransportController extends Controller
 {
     public function index(){
-		return view('transport.index');
+      $photos = Photo::where('sekcja','=' ,'1')
+                ->get();
+
+      $count = count($photos);
+      for ($i=1; $i < $count ; $i++) {
+        $slides[] = $i;
+      }
+		return view('transport.index',compact(['photos','slides']));
 		}
 }

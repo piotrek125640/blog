@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Administrator;
 use App\Http\Controllers\Controller;
 use App\Administrator;
 use Illuminate\Http\Request;
+use App\Photo;
 
 class AdministratorController extends Controller
 {
@@ -15,7 +16,15 @@ class AdministratorController extends Controller
      */
     public function index()
     {
-        return view('administrator.index');
+      $photos = Photo::where('sekcja','=' ,'1')
+                ->get();
+
+      $count = count($photos);
+      for ($i=1; $i < $count ; $i++) {
+        $slides[] = $i;
+      }
+
+        return view('administrator.index',compact(['photos', 'slides']));
     }
 
     /**

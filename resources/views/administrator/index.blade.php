@@ -8,10 +8,8 @@
     @include('layouts.navbar')
   @endif
 @endsection
-@section('gallery')
-    @include('layouts.carousel')
-@endsection
 @section('body')
+  @include('layouts.carousel')
   @include('layouts.body')
 @endsection
 @section('footer')
