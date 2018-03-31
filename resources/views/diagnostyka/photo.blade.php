@@ -1,6 +1,8 @@
 <article class='content'>
 	<h2 class='title is 2'>
-		{{$photo->title}}
+		<a href='{{url("/posts/{$post->id}") }}'>{{$post->title}}</a>
 		</h2>
-	<div>{{$photo->h1}}</div>
+	<time>{{$post->created_at->diffForHumans()}}</time>
+	<div>{{$post->body}}</div>
 </article>
+<img class="first-slide" src="{{$photo->src}}" alt="First slide">

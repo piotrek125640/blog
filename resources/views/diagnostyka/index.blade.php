@@ -8,6 +8,9 @@
 
 @endsection
 @section('body')
+  @foreach($photos as $photo)
+  @include('diagnostyka.photo')
+  @endforeach
 @endsection
 @section('footer')
   @include('layouts.footer')

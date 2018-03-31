@@ -9,6 +9,6 @@ class PhotoController extends Controller
 {
     public function index(){
       $photo = Photo::latest()->get();
-  return view('diagnostyka.index',compact('photo'));
+  return view('diagnostyka.index',compact('photos'));
   }
 }
