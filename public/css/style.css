@@ -3,9 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
   padding-bottom: 3rem;
-  color: #5a5a5a;
 }
 
 
@@ -14,6 +12,7 @@ body {
 
 /* Carousel base class */
 .carousel {
+  margin-top: 3rem;
   margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
