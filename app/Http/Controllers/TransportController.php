@@ -12,7 +12,7 @@ class TransportController extends Controller
                 ->get();
 
       $count = count($photos);
-      for ($i=1; $i < $count ; $i++) {
+      for ($i=0; $i < $count ; $i++) {
         $slides[] = $i;
       }
 		return view('transport.index',compact(['photos','slides']));

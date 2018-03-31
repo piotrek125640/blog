@@ -20,7 +20,7 @@ class AdministratorController extends Controller
                 ->get();
 
       $count = count($photos);
-      for ($i=1; $i < $count ; $i++) {
+      for ($i=0; $i < $count ; $i++) {
         $slides[] = $i;
       }
 
