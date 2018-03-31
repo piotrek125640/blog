@@ -9,7 +9,7 @@ class PhotoController extends Controller
 {
     public function index(){
       $photos = Photo::all();
-      dd($photos);
-      return view('diagnostyka.index',compact('photos'));
+      // dd($photos);
+  return view('diagnostyka.photo',compact('photos'));
   }
 }
