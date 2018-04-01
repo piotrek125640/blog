@@ -10,10 +10,8 @@ class TransportController extends Controller
     public function index(){
       $photos = Photo::where('sekcja','=' ,'3')
                 ->get();
-
-      $count = count($photos);
-      for ($i=0; $i < $count ; $i++) {
-        $slides[] = $i;
+      for ($i=0; $i<count($photos); $i++) {
+        $slides[] = $i+1;
       }
 		return view('transport.index',compact(['photos','slides']));
 		}

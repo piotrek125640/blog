@@ -10,12 +10,10 @@ class MainController extends Controller
   public function index(){
       $photos = Photo::where('sekcja','=' ,'1')
                 ->get();
-
-      $count = count($photos);
-      for ($i=0; $i < $count ; $i++) {
-        $slides[] = $i;
+      for ($i=0; $i<count($photos); $i++) {
+        $slides[] = $i+1;
       }
-      // dd($photos);
+      // dd($photos,$slides);
   return view('index',compact(['photos', 'slides']));
   }
 }
