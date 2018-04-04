@@ -8,7 +8,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="radius" src="{{asset('gallery/stacjadiag.jpg')}}" alt="First slide">
+          <img class="img-responsive radius" src="{{asset('gallery/stacjadiag.jpg')}}" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
               <div class="text-karuzela">
@@ -21,7 +21,7 @@
         </div>
 				@foreach($photos as $photo)
         <div class="carousel-item">
-          <img class="radius" src="{{$photo->src}}" alt="{{$photo->alt}}">
+          <img class="img-responsive radius" src="{{$photo->src}}" alt="{{$photo->alt}}">
           <div class="container">
             <div class="carousel-caption">
               <div class="text-karuzela">
