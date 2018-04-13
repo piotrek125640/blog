@@ -8,7 +8,7 @@
     @include('layouts.carousel')
 @endsection
 @section('body')
-  @include('layouts.body-index')
+  @include('layouts.body')
 @endsection
 @section('footer')
   @include('layouts.footer')
