@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @if(Auth::check())
   <nav class="navbar navbar-inverse navbar-expand-lg navbar-light fixed-top bg-light">
     <a class="navbar-brand" href="{{url('/admin')}}"> <img src="{{asset('gallery/henderson.png')}}" width="132" height="56" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
@@ -55,6 +56,10 @@
 @else
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark" id='navbar-position'>
   <a class="navbar-brand" href="{{url('/')}}"> <img src="{{asset('gallery/henderson.png')}}" width="132" height="56" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
+=======
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id='navbar-color'>
+  <a class="navbar-brand" href="{{url('/')}}"> <img src="{{asset('gallery/henderson1.png')}}" width="200" height="56" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
+>>>>>>> d03356317091f8403b8193498cac9b1077f2b8b7
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

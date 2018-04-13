@@ -7,9 +7,16 @@
 /*Google font integration*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+#card-container{
+margin-top: 7rem;
+margin-left: 10rem;
+}
 #contact{
   margin-top:7rem;
     font-family: 'Roboto', sans-serif;
+}
+#navbar-color{
+  background-color: #337ab7;
 }
 
 #contact .well{
@@ -174,7 +181,7 @@ border-radius: 12px;
 
 
 #myFooter {
-    background-color: #182c39;
+      background-color: #337ab7;
     color: white;
     padding-top: 20px;
 }
