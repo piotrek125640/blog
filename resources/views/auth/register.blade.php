@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<meta http-equiv="refresh" content="0;URL={{url('/')}}" />
 @section('content')
 <div class="container">
     <div class="row justify-content-center">

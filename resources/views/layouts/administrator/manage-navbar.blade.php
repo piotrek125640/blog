@@ -11,9 +11,9 @@
       <li class="nav-item">
         <a class="nav-link" href="{{url('/admin/zdjęcia')}}">Zarządzaj zdjęciami</a>
       </li>
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <a class="nav-link" href="{{url('/admin/opinie')}}">Opinie</a>
-      </li>
+      </li> -->
     </ul>
     <ul class="navbar-nav nav nav-right mr-aut">
       <li class="nav-item dropdown">

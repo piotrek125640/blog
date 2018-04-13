@@ -2,7 +2,7 @@
 @section('head')
   @include('layouts.css')
   @include('layouts.script')
-  @include('layouts.administrator.manage-navbar')
+  @include('layouts.navbar')
 @endsection
 @section('gallery')
 @endsection

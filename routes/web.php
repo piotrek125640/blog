@@ -26,6 +26,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::group(['middleware' => ['auth', 'administrator']], function(){
   Route::get('/admin','Administrator\AdministratorController@index');
   Route::get('/admin/zarządzaj', 'Administrator\AdministratorController@manage');
+  Route::post('/admin/zarządzaj', 'Administrator\AdministratorController@create');
+  Route::post('/admin/zarządzaj', 'Administrator\AdministratorController@delete');
   Route::get('/admin/zdjęcia', 'Administrator\AdministratorController@photos');
   Route::get('/admin/opinie', 'Administrator\AdministratorController@reviews');
 });

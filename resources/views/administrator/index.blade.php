@@ -2,11 +2,13 @@
 @section('head')
   @include('layouts.css')
   @include('layouts.script')
-    @include('layouts.administrator.navbar')
+    @include('layouts.navbar')
+@endsection
+@section('gallery')
+    @include('layouts.carousel')
 @endsection
 @section('body')
-  @include('layouts.carousel')
-  @include('layouts.body')
+  @include('layouts.body-index')
 @endsection
 @section('footer')
   @include('layouts.footer')

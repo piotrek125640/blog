@@ -14,7 +14,7 @@
                 separator: ',',
                 decimal: '.',
               };
-              var demo = new CountUp('trucks', 0, 5000, 0, 10, options);
+              var demo = new CountUp('trucks', 0, 5000, 0, 6, options);
               if (!demo.error) {
                 demo.start();
               } else {
@@ -43,7 +43,7 @@
               separator: ',',
               decimal: '.',
             };
-            var demo = new CountUp('load', 0, 2000, 0, 10, options);
+            var demo = new CountUp('load', 0, 2000, 0, 6, options);
             if (!demo.error) {
               demo.start();
             } else {
@@ -71,7 +71,7 @@
               separator: ',',
               decimal: '.',
             };
-            var demo = new CountUp('emplo', 0, 100000, 0, 10, options);
+            var demo = new CountUp('emplo', 0,100000, 0, 6, options);
             if (!demo.error) {
               demo.start();
             } else {

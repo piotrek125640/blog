@@ -1,6 +1,7 @@
 <div class="container marketing" >
 
         <!-- Three columns of text below the carousel -->
+        @include('layouts.counter')
         <hr class="featurette-divider">
         <h1 class="text-center">Firmy które z nami współpracują.</h1>
         <div class="">

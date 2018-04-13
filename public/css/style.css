@@ -141,7 +141,7 @@ height: 32rem;
     }
   .carousel-item > img {
     border: 20px solid;
-    border-color:#343a40
+    border-color: #343a40;
     background-color: white;
     -webkit-border-radius: 12px;
 
@@ -311,4 +311,16 @@ body{
 .myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
+}
+
+.section{
+  margin: 120px 70px 50px 70px;
+}
+
+.h-padding{
+  margin-bottom: 50px;
+}
+
+.section-small{
+  margin: 50px 70px;
 }
