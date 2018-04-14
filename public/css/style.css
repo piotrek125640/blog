@@ -90,7 +90,7 @@ height: 32rem;
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
+  height: 700px;
 }
 
 
@@ -188,7 +188,8 @@ height: 32rem;
 #myFooter .container {
     width: auto;
     margin: 0;
-    height: 250px;
+    padding: 0;
+    min-height: 200px;
 }
 
 #myFooter ul {
