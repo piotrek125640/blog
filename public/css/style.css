@@ -157,7 +157,7 @@ height: 32rem;
   }
 } */
 #myFooter {
-      background-color: #337ab7;
+    background-color: rgb(33, 33, 33);
     color: white;
     padding-top: 20px;
 }
@@ -174,7 +174,7 @@ height: 32rem;
 }
 
 #myFooter .footer-copyright {
-    background-color: #10222e;
+    background-color: rgb(20, 20, 20);
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -187,6 +187,8 @@ height: 32rem;
 
 #myFooter .container {
     width: auto;
+    margin: 0;
+    height: 250px;
 }
 
 #myFooter ul {
