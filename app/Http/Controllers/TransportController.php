@@ -8,10 +8,14 @@ use App\Photo;
 class TransportController extends Controller
 {
     public function index(){
-      $photos = Photo::where('sekcja','=' ,'3')
+      $result = Photo::where('sekcja','=' ,'3')
                 ->get();
-      for ($i=0; $i<count($photos); $i++) {
-        $slides[] = $i+1;
+      for ($i=1; $i<count($result); $i++) {
+        $slides[] = $i;
+      }
+      foreach($result as $object)
+      {
+          $photos[] = $object->toArray();
       }
 		return view('transport.index',compact(['photos','slides']));
 		}

@@ -2,33 +2,34 @@
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        @if(count($photos)>=2)
         @foreach($slides as $slide)
         <li data-target="#myCarousel" data-slide-to="{{$slide}}"></li>
         @endforeach
+        @else
+        @endif
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="img-responsive radius" src="{{asset('gallery/stacjadiag.jpg')}}" alt="First slide">
+          <img class="img-responsive radius" src="{{$photos[0]['src']}}" alt="First slide">
           <div class="container">
             <div class="carousel-caption text-left">
               <div class="text-karuzela">
-              <h1>Diagnostyka</h1>
-              <p>Jeżeli dbanie o aspekt techniczny auta to dla Ciebie piorytet, nasza firma pomoże Ci sprawdzić Twoje auto.</p>
+              <h1>{{$photos[0]['h1']}}</h1>
+              <p>{{$photos[0]['p']}}</p>
               </div>
-              <p><a class="btn btn-lg btn-primary" href="{{url("diagnostyka")}}" role="button">Sign up today</a></p>
           </div>
           </div>
         </div>
-				@foreach($photos as $photo)
+				@foreach(array_slice($photos,1) as $photo)
         <div class="carousel-item">
-          <img class="img-responsive radius" src="{{$photo->src}}" alt="{{$photo->alt}}">
+          <img class="img-responsive radius" src="{{$photo['src']}}" alt="{{$photo['alt']}}">
           <div class="container">
-            <div class="carousel-caption">
+            <div class="carousel-caption text-left">
               <div class="text-karuzela">
-              <h1>{{$photo->h1}}</h1>
-              <p>{{$photo->p}}</p>
+              <h1>{{$photo['h1']}}</h1>
+              <p>{{$photo['p']}}</p>
             </div>
-              <p><a class="btn btn-lg btn-primary" href="{{url("transport")}}" role="button">Learn more</a></p>
             </div>
           </div>
         </div>

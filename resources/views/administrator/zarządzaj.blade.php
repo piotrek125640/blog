@@ -85,7 +85,7 @@
 </div>
 <div class="section-small">
   <h2 class="h-padding">Dodaj</h2>
-  <form action="{{url('/admin/zarządzaj')}}" method="post">
+  <form action="{{action('Administrator\AdministratorController@create')}}" method="post">
     {{ csrf_field() }}
     <div class="form-row">
       <div class="form-group col-md-6">

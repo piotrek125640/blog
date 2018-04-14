@@ -13,11 +13,16 @@ class AdministratorController extends Controller
 {
     public function index()
     {
-      $photos = Photo::where('sekcja','=' ,'1')
+      $result = Photo::where('sekcja','=' ,'1')
                 ->get();
-      $count = count($photos);
-      for ($i=0; $i < $count ; $i++) {
+      $count = count($result);
+      for ($i=1; $i < $count ; $i++) {
         $slides[] = $i;
+      }
+
+      foreach($result as $object)
+      {
+          $photos[] = $object->toArray();
       }
         return view('administrator.index',compact(['photos', 'slides']));
     }
