@@ -23,7 +23,7 @@
               <div class="col-sm-3">
                 <h5>Skontaktuj się z nami</h5>
                   <ul>
-                    <li><a href="#">Wyszków 02-221</br>ul. Towarowa 10</a></li>
+                    <li><a href="#">Wyszków 07-221</br>ul. Towarowa 10</a></li>
                     <li><a href="#">Telefon: 500 064 908</a></li>
                     <li><a href="#">Email: stacjam10@wp.pl</a></li>
                 </ul>
