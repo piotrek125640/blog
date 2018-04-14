@@ -10,8 +10,8 @@ class WarsztatController extends Controller
     public function index(){
       $result = Photo::where('sekcja','=' ,'4')
                 ->get();
-      for ($i=0; $i<count($result); $i++) {
-        $slides[] = $i+1;
+      for ($i=1; $i<count($result); $i++) {
+        $slides[] = $i;
       }
 
       foreach($result as $object)
