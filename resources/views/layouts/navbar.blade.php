@@ -79,10 +79,10 @@
 </div>
   <nav class="navbar navbarscr navbar-inverse navbar-expand-md navbar-light fixed-top bg-light" id="navbar-color">
     <a class="navbar-brand" href="{{url('/admin')}}"> <img src="{{asset('gallery/henderson1.png')}}" width="160" height="auto" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
+    <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown2">
       <ul class="navbar-nav nav nav-right nav mr-aut">
         <li class="nav-item active">
           <a class="nav-link" href="{{url('/admin')}}">Strona główna</a>
@@ -211,10 +211,10 @@
 </div>
 <nav class="navbar navbarscr navbar-inverse navbar-expand-md navbar-light fixed-top bg-light">
   <a class="navbar-brand" href="{{url('/')}}"> <img src="{{asset('gallery/henderson1.png')}}" width="160" height="auto" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
+  <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown2">
     <ul class="navbar-nav nav nav-right nav mr-aut">
       <li class="nav-item active">
         <a class="nav-link" href="{{url('/')}}">Strona główna</a>
