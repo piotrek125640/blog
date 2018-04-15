@@ -40,7 +40,7 @@
       </div>
     </div>
   </div>
-  <hr style="margin-bottom: 50px;">
+  <hr style="margin-bottom: 150px;">
 @endsection
 @section('footer')
   @include('layouts.footer')

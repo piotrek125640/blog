@@ -1,7 +1,7 @@
 <div class="container marketing" >
 
         <!-- Three columns of text below the carousel -->
-        <hr class="featurette-divider">
+        <!-- <hr class="featurette-divider">
         <h2 class="text-center">Firmy które z nami współpracują.</h2>
         <div class="section-small">
           <div class="container db-lead">
@@ -21,7 +21,7 @@
             </div>
           </div>
         </div>
-        <hr>
+        <hr> -->
         <!-- <hr class="featurette-divider"> -->
 
         <!-- <h1 class="text-center" style="padding-bottom: 55px;">Opinie użytkowników</h1>

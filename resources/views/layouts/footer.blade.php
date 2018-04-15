@@ -1,7 +1,7 @@
     <footer id="myFooter">
         <div class="container mx-auto">
             <div class="row">
-              <div class="col-sm-5">
+              <div class="col-md-4">
                 <ul>
                   <li><img src="{{asset('gallery/henderson2.png')}}" style="width: 200px; padding-top:15px;"> </li>
                   <li style="margin-top: -10px;"><a href="#"></a><small>Okręgowa Stacja Kontroli Pojazdów</small></li>
@@ -12,7 +12,7 @@
                   </div>
                 </ul>
               </div>
-              <div class="col-sm-2">
+              <div class="col-md-4" style="text-align: center">
                 <h5>Informacje</h5>
                   <ul>
                     <li><a href="#">O nas</a></li>
@@ -20,7 +20,7 @@
                     <li><a href="#">FAQ</a></li>
                 </ul>
               </div>
-              <div class="col-sm-5">
+              <div class="col-md-4">
                 <h5>Skontaktuj się z nami</h5>
                   <ul>
                     <li><a href="#">Wyszków 07-221 ul. Towarowa 10</a></li>
