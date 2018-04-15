@@ -15,17 +15,17 @@
               <div class="col-md-4" style="text-align: center">
                 <h5>Informacje</h5>
                   <ul>
-                    <li><a href="#">O nas</a></li>
-                    <li><a href="#">Kontakt</a></li>
-                    <li><a href="#">FAQ</a></li>
+                    <li><a href="{{url('/o_nas')}}">O nas</a></li>
+                    <li><a href="{{url('/kontakt')}}">Kontakt</a></li>
+                    <li><a href="{{url('/faq')}}">FAQ</a></li>
                 </ul>
               </div>
               <div class="col-md-4">
                 <h5>Skontaktuj się z nami</h5>
                   <ul>
-                    <li><a href="#">Wyszków 07-221 ul. Towarowa 10</a></li>
-                    <li><a href="#">Telefon: 500 064 908</a></li>
-                    <li><a href="#">Email: stacjam10@wp.pl</a></li>
+                    <li><span>Wyszków 07-221 ul. Towarowa 10</span></li>
+                    <li><span href="#">Telefon: 500 064 908</span></li>
+                    <li><span href="#">Email: stacjam10@wp.pl</span></li>
                 </ul>
               </div>
             </div>

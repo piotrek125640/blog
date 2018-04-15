@@ -18,6 +18,7 @@ Route::get('/warsztat', 'WarsztatController@index');
 Route::get('/o_nas', 'KontaktController@about');
 Route::get('/kontakt', 'KontaktController@messages');
 Route::get('/informacje','KontaktController@info');
+Route::get('/faq', 'KontaktController@faq');
 
 Auth::routes();
 

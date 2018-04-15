@@ -18,4 +18,8 @@ class KontaktController extends Controller
     public function info(){
       return view('kontakt.informacje');
     }
+
+    public function faq(){
+      return view('kontakt.faq');
+    }
 }
