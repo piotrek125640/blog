@@ -5,7 +5,7 @@
   @include('layouts.navbar')
 @endsection
 @section('gallery')
-    @include('layouts.carousel')
+  @include('layouts.new-carousel')
 @endsection
 @section('body')
   @include('layouts.body-index')

@@ -1,19 +1,19 @@
 @if(Auth::check())
 <div id="navbar-info">
 <div class=" mx-auto">
-  <div class="row" style="margin: 0 auto">
+  <div class="row " style="margin: 0 auto">
   <div class="col-md-3">
     <ul>
       <li><img src="{{asset('gallery/henderson1.png')}}" style="width: 200px;"> </li>
-      <li style="margin-top: -10px;"><a href="#"></a><small>Okręgowa Stacja Kontroli Pojazdów</small></li>
+      <li style="margin-top: -10px; font-family:fantasy;"><a href="#"></a><small>Okręgowa Stacja Kontroli Pojazdów</small></li>
     </ul>
   </div>
   <div class="col-md-3">
     <ul>
       <li>
-          <i class="fas fa-phone fa-2x padd-img"></i>
-          <p class="img-text wts"><b>500 064 908</b></br>
-            <i>stacjam10@wp.pl</i>
+          <i class="fas fa-phone fa-2x padd-img" ></i>
+          <p class="img-text wts"style="font-family:fantasy;"><b>500 064 908</b></br>
+            <i style="font-family:fantasy;">stacjam10@wp.pl</i>
           </p>
       </li>
     </ul>
@@ -21,9 +21,9 @@
   <div class="col-md-3">
     <ul>
       <li>
-        <i class="fas fa-map-marker-alt fa-2x padd-img"></i>
-        <p class="img-text"><b>Henderson24 Wyszków</b></br>
-          <i>ul. Towarowa 10</i>
+        <i style="font-family:Impact, fantasy;"> class="fas fa-map-marker-alt fa-2x padd-img"></i>
+        <p style="font-family:Impact, fantasy;"> class="img-text"><b>Henderson24 Wyszków</b></br>
+          <i style="font-family:Impact, fantasy;">> ul. Towarowa 10</i>
         </p>
       </li>
     </ul>
@@ -32,7 +32,7 @@
     <ul>
       <li>
         <i class="far fa-clock fa-2x padd-img"></i>
-        <p class="img-text"><b>07:00 - 18:00/17:00</b></br>
+        <p class="img-text"><b>07:00 - 18:00/14:00</b></br>
           <i>Poniedziałek - Piątek/Sobota</i>
         </p>
       </li>
@@ -41,9 +41,11 @@
 </div>
 </div>
 <nav class="navbar navbar-inverse navbar-center navbar-expand-md navbar-light  bg-light" id="">
+  <center>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  Menu <span class="navbar-toggler-icon"></span>
   </button>
+</center>
   <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
     <ul class="navbar-nav nav nav-right nav mr-aut">
       <li class="nav-item active">
@@ -80,7 +82,7 @@
   <nav class="navbar navbarscr navbar-inverse navbar-expand-md navbar-light fixed-top bg-light" id="navbar-color">
     <a class="navbar-brand" href="{{url('/admin')}}"> <img src="{{asset('gallery/henderson1.png')}}" width="160" height="auto" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      Menu <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown2">
       <ul class="navbar-nav nav nav-right nav mr-aut">
@@ -176,8 +178,8 @@
 </div>
 </div>
 <nav class="navbar navbar-inverse navbar-center navbar-expand-md navbar-light  bg-light" id="">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="margin:auto;">
+    Menu <span class="navbar-toggler-icon"></span>
   </button>
   <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
     <ul class="navbar-nav nav nav-right nav mr-aut">
@@ -212,7 +214,7 @@
 <nav class="navbar navbarscr navbar-inverse navbar-expand-md navbar-light fixed-top bg-light">
   <a class="navbar-brand" href="{{url('/')}}"> <img src="{{asset('gallery/henderson1.png')}}" width="160" height="auto" class="d-inline-block align-top" alt="Henderson: firma oferująca usługi w zakresie transportu, mechaniki samochodowej i diagnostyki samochodowej."></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    Menu <span class="navbar-toggler-icon"></span>
   </button>
   <div class="navbar-collapse collapse justify-content-between" id="navbarNavDropdown2">
     <ul class="navbar-nav nav nav-right nav mr-aut">

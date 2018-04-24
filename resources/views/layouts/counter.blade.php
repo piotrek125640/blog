@@ -1,4 +1,8 @@
-<div class="container">
+<div class="container-counter" id="container-counter">
+  <div class="fadeInDown animated">
+
+  <h1 id="shadow">Dlaczego warto wybrać nas?</h1>
+</div>
   <div class="row">
     <div class="col-lg-4">
         <div class="card">
