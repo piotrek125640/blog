@@ -21,15 +21,9 @@ body{
     height: 100%;
     font-family: 'Lato', sans-serif;
 }
-#carousel-text{
-  display:inline-block;
-  vertical-align: top;
-}
-#carousel-button{
-  display:inline-block;
-  vertical-align: bottom;
-}
-#shadow{
+
+.shadow{
+  opacity:1;
   text-align: center;
   text-shadow:black 1px 0 10px;
 }
@@ -106,16 +100,17 @@ iframe{
 .container-counter{
   background-color: grey;
 }
-#carousel-button:
-#carousel-position{
-  margin-top:3rem;
-}
+
 .carousel {
     margin:auto;
   margin-top: 1.8rem;
   margin-bottom: 4rem;
   max-width: 1280px;
 }
+.carousel-caption {
+  height:40%;
+}
+
 
 
 
@@ -153,8 +148,26 @@ iframe{
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (min-width: 1200px) {
+  .carousel-caption h5 {
+    font-size:3rem;
+  }
+
+}
+
+
+    #carousel-caption p {
+     right:25%;
+     left: 5%;
+    }
+  }
+
+ @media (max-width: 600px) {
+
+ }
 
  @media (max-width: 900px) {
+
 
      #carousel-caption p {
       right:25%;
@@ -183,22 +196,6 @@ font-family: 'Helvetica', 'Arial', sans-serif;
 #myFooter .row {
     margin: 0 85px;
 }
-.carousel-item .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  background-color: #555;
-  margin-bottom:7rem;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
 #myFooter .footer-copyright {
     background-color: rgb(20, 20, 20);
     padding-top: 3px;

@@ -1,10 +1,10 @@
-<div class="container-counter" id="container-counter">
-  <div class="fadeInDown animated">
+<div class="container-counter animated" id="container-counter">
+  <div  class="animated" id="project01">
 
-  <h1 id="shadow">Dlaczego warto wybrać nas?</h1>
+  <h1 class="shadow">Dlaczego warto wybrać nas?</h1>
 </div>
   <div class="row">
-    <div class="col-lg-4">
+    <div class="col-lg-4 animated">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title"><i style="color:#337ab7" class="far fa-user fa-3x"></i></h5>
@@ -33,7 +33,7 @@
           </div>
         </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 animated">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title"><i style="color:#337ab7" class="fas fa-car fa-3x"></i></h5>
@@ -61,7 +61,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4">
+    <div class="col-lg-4 animated">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title"><i style="color:#337ab7" class="fas fa-truck-loading fa-3x"></i></h5>
