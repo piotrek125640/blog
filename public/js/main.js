@@ -8,8 +8,10 @@ $('.col-lg-4.animated').each(function(){
 
   var ourScene = new ScrollMagic.Scene({
     triggerElement: this,
+    reverse:false
+
   })
-  .setClassToggle(this,'fadeIn') //add class
+  .setClassToggle(this,'fadeInUp') //add class
   .addTo(controller);
 })
 

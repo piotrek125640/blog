@@ -21,6 +21,12 @@ body{
     height: 100%;
     font-family: 'Lato', sans-serif;
 }
+#test{
+  visibility: hidden;
+}
+.col-lg-4.fadeInUp{
+  visibility: visible;
+}
 
 .shadow{
   opacity:1;

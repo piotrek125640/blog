@@ -3,8 +3,8 @@
 
   <h1 class="shadow">Dlaczego warto wybrać nas?</h1>
 </div>
-  <div class="row">
-    <div class="col-lg-4 animated">
+  <div class="row" id="test">
+    <div class="col-lg-4 animated" id="test1">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title"><i style="color:#337ab7" class="far fa-user fa-3x"></i></h5>
@@ -19,7 +19,7 @@
                 decimal: '.',
               };
               var demo = new CountUp('trucks', 0, 5000, 0, 6, options);
-              if (!demo.error) {
+              if (!demo.error&&$( "#test1" ).hasClass( "animated" )) {
                 demo.start();
               } else {
                 console.error(demo.error);
